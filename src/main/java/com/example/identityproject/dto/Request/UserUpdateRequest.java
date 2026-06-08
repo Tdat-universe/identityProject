@@ -1,11 +1,8 @@
 package com.example.identityproject.dto.Request;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
-
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

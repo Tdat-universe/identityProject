@@ -1,14 +1,13 @@
-package com.example.identityproject.dto.Request;
+package com.example.identityproject.dto.Response;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-@Builder
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class AuthenticationRequest {
-    String username;
-    String password;
-
+public class IntrospectResponse {
+    boolean valid;
 }
